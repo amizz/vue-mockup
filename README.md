@@ -3,9 +3,9 @@
 > My kickass Nuxt.js project
 
 ## Create app
-'''
+```
 npx create-nuxt-app <project-name>
-'''
+```
 
 ## Dynamic Page
 """
