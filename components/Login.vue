@@ -6,7 +6,6 @@
       <el-form-item label="Email" prop="email">
         <el-input v-model="form.email"></el-input>
       </el-form-item>
-
       <el-form-item label="Password" prop="password">
         <el-input type="password" v-model="form.password"></el-input>
       </el-form-item>

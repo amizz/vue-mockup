@@ -2,6 +2,17 @@
 
 > My kickass Nuxt.js project
 
+##
+"""
+npx create-nuxt-app <project-name>
+"""
+
+##Dynamic Page
+"""
+Add _ underscore to page/folder. Refer to pages structure.
+"""
+
+
 ## Build Setup
 
 ``` bash

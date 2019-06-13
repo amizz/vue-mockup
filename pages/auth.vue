@@ -8,7 +8,7 @@
 
           <div class="option">
             <span v-if="!isLogin" @click="isLogin = true">I want to login</span>
-            <span v-if="isLogin" @click="isLogin= false">Signup please</span>
+            <span v-if="isLogin" @click="isLogin = false">Signup please</span>
           </div>
         </div>
       </el-col>

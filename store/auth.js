@@ -10,13 +10,13 @@ export const mutations = {
   }
 }
 
-export const actions = () => ({
+export const actions = {
   async getToken() {
   }
-})
+}
 
-export const getter = () => ({
-  tokenProcess() {
+export const getter = {
+  GET_TOKEN(state) {
     return token;
   }
-})
+}

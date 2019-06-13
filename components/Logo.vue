@@ -7,6 +7,16 @@
   </div>
 </template>
 
+<script>
+export default {
+  created() {
+    this.$store.state.auth.token;
+    this.$store.commit('auth/SET_TOKEN', 'token here');
+  }
+}
+</script>
+
+
 <style>
 .VueToNuxtLogo {
   display: inline-block;
