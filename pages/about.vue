@@ -7,7 +7,15 @@
 
 <script>
 export default {
-  middleware: ['check-token']
+  middleware: ['check-token'],
+  head () {
+    return {
+      title: "Title Page",
+      meta: [
+        { hid: 'description', name: 'description', content: 'My custom description' }
+      ]
+    }
+  }
 }
 </script>
 
