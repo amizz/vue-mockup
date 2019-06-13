@@ -1,0 +1,36 @@
+{
+  "name": "mockup",
+  "version": "1.0.0",
+  "description": "My fantabulous Nuxt.js project",
+  "author": "Amirul Zharfan Zalid",
+  "private": true,
+  "scripts": {
+    "test": "ava",
+    "dev": "cross-env NODE_ENV=development nodemon server/index.js --watch server",
+    "build": "nuxt build",
+    "start": "cross-env NODE_ENV=production node server/index.js",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.0.0",
+    "ava": "^2.1.0",
+    "cross-env": "^5.2.0",
+    "element-ui": "^2.4.6",
+    "express": "^4.16.3",
+    "mobile-detect": "^1.4.3",
+    "mobile-detector": "^1.0.3",
+    "nuxt": "^2.0.0",
+    "vee-validate": "^2.2.10",
+    "vuelidate": "^0.7.4",
+    "dotenv": "^8.0.0"
+  },
+  "devDependencies": {
+    "@vue/test-utils": "^1.0.0-beta.27",
+    "ava": "^1.0.1",
+    "browser-env": "^3.2.5",
+    "require-extension-hooks": "^0.3.3",
+    "require-extension-hooks-babel": "^0.1.1",
+    "require-extension-hooks-vue": "^2.0.0",
+    "nodemon": "^1.18.9"
+  }
+}
