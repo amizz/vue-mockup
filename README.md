@@ -2,12 +2,12 @@
 
 > My kickass Nuxt.js project
 
-##
-"""
+## Create app
+'''
 npx create-nuxt-app <project-name>
-"""
+'''
 
-##Dynamic Page
+## Dynamic Page
 """
 Add _ underscore to page/folder. Refer to pages structure.
 """
@@ -32,11 +32,11 @@ $ yarn run generate
 
 For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
 
-#Deployment
+# Deployment
 
 1. Install Nginx, Nodejs, PM2
 
-##CentOS
+## CentOS
 
 Nginx
 ```
@@ -78,7 +78,7 @@ SELinux
 setsebool -P httpd_can_network_connect 1
 ```
 
-##Ubuntu
+## Ubuntu
 """
 Refer to online
 """
