@@ -16,7 +16,7 @@
     "ava": "^2.1.0",
     "cross-env": "^5.2.0",
     "element-ui": "^2.4.6",
-    "express": "^4.16.3",
+    "express": "^4.17.3",
     "mobile-detect": "^1.4.3",
     "mobile-detector": "^1.0.3",
     "nuxt": "^2.0.0",
